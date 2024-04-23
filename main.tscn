@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 [gd_scene load_steps=5 format=3 uid="uid://v7hnoh56vpjm"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_ln81w"]
+=======
+[gd_scene load_steps=5 format=3 uid="uid://cf3c6nie1xble"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_ltkka"]
+>>>>>>> 1f9829af67f4e1ad4a3d2052036145efcc0e745e
 [ext_resource type="PackedScene" uid="uid://c8qgcyutcbue1" path="res://mob.tscn" id="2_adu5l"]
 [ext_resource type="PackedScene" uid="uid://dmy6m118ov3tb" path="res://Player.tscn" id="3_ecmt8"]
 
@@ -11,7 +17,11 @@ _data = {
 point_count = 5
 
 [node name="Main" type="Node"]
+<<<<<<< HEAD
 script = ExtResource("1_ln81w")
+=======
+script = ExtResource("1_ltkka")
+>>>>>>> 1f9829af67f4e1ad4a3d2052036145efcc0e745e
 mob_scene = ExtResource("2_adu5l")
 
 [node name="Player" parent="." instance=ExtResource("3_ecmt8")]
